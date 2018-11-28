@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+	<head>
+		<title>ScreensOnDemand.com</title>
+		<style type="text/css">
+			#main-headler{
+				text-align:center;
+				background-color:grey;
+				color:white;
+				padding:5px;
+			}
+		#main-ul{
+				text-align: center;
+		 }
+
+			#main-footer{
+				text-align: center;
+				font-size:18px;
+			}
+		</style>
+	</head>
+	<body>
+		<header id="main-headler">
+		<a href="index.html"><h3><strong>Home</strong></h3></a>
+		</header>
+		<hr>
+		<ul id="main-ul">
+			<a href="Screens.html"><h2><strong>Change Sreens</a>
+			<a href="Batteries.html">Change Batteries</a>
+			<a href="ChargingPorts.html">Charging Ports</a>
+			<a href="Other Stuff.html">Other Stuff</a>
+		</ul>
+			<h4><strong>We Will Come Pick Them And Fix Them </strong><br></h4>
+			<h2>Charging Ports</h2>
+				<a href="images/broken-charging-port.jpg">
+				<img src="images/broken-charging-port.jpg" alt="broken-charging-port Sample Image" width="200">
+			</a>
+			<div>
+			<br>
+			<form action="process.php" method="POST">
+				<div>
+				<label>Looking For</label>
+				<select name="New">
+				<option value="Charging Port Replacement">Charging Port</option>
+				<option value="Screen Replacement">Screen Replacement</option>
+				<option value="Battery Replacement">Baterry Replacement</option>
+				<option value="Something Else">Something Else</option>
+				<select>
+				</div>
+				<br>
+				<div>
+				 <label>Your Device</label>
+							<select name="Model">
+								<option value="iPhone XS">iPhone XS</option>
+								<option value="iPhone XS Max">iPhone XS Max</option>
+								<option value="iPhone XR">iPhone XR</option>
+								<option value="iPhone X">iPhone X</option>
+								<option value="iPhone 8">iPhone 8</option>
+								<option value="iPhone 8 Plus">iPhone 8 Plus</option>
+								<option value="iPhone XR">iPhone XR</option>
+								<option value="iPhone X">iPhone X</option>
+								<option value="iPhone 8">iPhone 8</option>
+								<option value="iPhone 8 Plus">iPhone 8 Plus</option>
+								<option value="iPhone 7">iPhone 7</option>
+								<option value="iPhone 7 Plus">iPhone 7 Plus</option>
+								<option value="iPhone 6s">iPhone 6s</option>
+								<option value="iPhone 6s Plus">iPhone 6s Plus</option>
+								<option value="iPhone 6">iPhone 6</option>
+								<option value="iPhone 6 Plus">iPhone 6 Plus</option>
+								<option value="iPhone SE">iPhone SE</option>
+								<option value="iPhone 5s">iPhone 5s</option>
+								<option value="iPhone 5c">iPhone 5c</option>
+								<option value="iPhone 5">iPhone 5</option>
+								<option value="iPhone 4s">iPhone 4s</option>
+								<option value="iPhone 4">iPhone 4</option>
+								<option value="iPhone 3GS">iPhone 3GS</option>
+								<option value="iPhone 3G">iPhone 3G</option>
+								<option value="iPhone">iPhone</option>
+							</select>
+						</div>
+						<br>
+						<div>
+							<label>Pick Up Point</label>
+							<input type="Postcode" name="Postcode" placeholder="enter your postcode">
+						</div>
+						<br>
+						<div>
+							<label>Pickup Date:</label>
+							<input type="date" name="date required">
+						</div>
+						<br>
+						<div>
+							<label>Pickup Time:</label>
+							<input type="time" name="prefared time">
+						</div>
+						<br>
+						<div>
+						<label>Name</label>
+						<input type="text" name="name" placeholder="your name">
+					</div>
+					<br>
+					<div>
+				<label>Phone</label>
+				<input type="text" name="phone number" placeholder="contact number">
+				</div>
+				<br>
+				<div>
+				<label>Email</label>
+				<input type="email" name="email" >
+				</div>
+				<br>
+				<div>
+				<label>Message</label>
+				<textarea name="message" placeholder="Describe Your Situation"></textarea>
+				</div>
+				<br>
+				<div>
+				<input type="submit" name="submit" value="Get Quote">
+				</form>
+
+					<!-- Button -->
+				<button>Book In</button>
+				<footer id="main-footer">
+					<p>Copyright &copy; 2018, ScreansOnDemad.co.uk</p>
+
+				<br>
+		</body>
+</html>
